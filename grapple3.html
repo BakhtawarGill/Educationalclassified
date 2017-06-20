@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Grapple3</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="stylesheets/bootstrap.min.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">
+      <link rel="stylesheet" href="stylesheets/bootstrap-theme.min.css">
+      <link href="stylesheets/custom.css" rel="stylesheet">
+      <link rel="stylesheet" href="stylesheets/style.css">
+      <script src="js/jquery.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <style>
+      #footer h3 { text-align: left; }
+#footer ul li a { text-align: left;  }
+      #header { padding-top: 40px;
+    padding-bottom: 50px;
+    min-height: 0px;
+}
+         body { background-image: url("images/bg01.jpg"); background-repeat: no-repeat; 
+         background-attachment: fixed; background-size:100% 666px;  }
+         .container { color: #fff; text-align: center; }
+         .navbar-default ul li a { color: #fff !important; }
+         .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover { background-color:transparent; background-image: none; } 
+         .property-container {
+         background:transparent;
+         border: 1px solid #eee;
+         }
+         .inner_box { border:1px solid grey; height:300px; }
+         .inner_bg { background-image: url("images/bg.png"); background-repeat: no-repeat;  min-height:300px;  }
+         .heading_main { font-size:14px; font-weight: 200; color: #000;  }
+         .heading_box { width:220px;      padding-top:50px; }
+         .heading_box h3 { font-weight: bold; color:brown; margin: 12px; }
+         .heading_box p { color: #696969; font-weight: bold; font-size: 12px;  
+         margin: 0px;margin-left: 20px; line-height: 15px; }
+         .heading-title h2 { border:1px solid #856f5a; }
+         .property-container {  border:1px solid #856f5a; }
+         .h6 small, h1 .small, h1 small, h2 .small, h2 small, h3 .small, h3 small, h4 .small, h4 small, h5 .small, h5 small, h6 .small, h6 small {
+         font-weight: bold;
+         line-height: 1;
+         color: #000;
+         }
+         .property-image img { width:360px; height:240px !important; }
+         .property-price { background:#54433b;  }
+         .property-content h3 a   { color:#54433b;  }
+         .property-content h3    { font-weight: bold;  }
+         .property-features { background:#54433b;  }
+          .marginBtm { margin-bottom: 70px; }
+         
+      </style>
+   </head>
+   <body id="top">
+      <nav class="navbar navbar-default" style="background-image: none;  border-color: transparent; background-color:transparent;  ">
+         <div class="container">
+            <div class="navbar-header">
+               <a class="navbar-brand" href="#">Grapple</a>
+            </div>
+            <ul class="nav navbar-nav">
+               <li class="active" style="margin-left:60px;"><a href="#">Home</a></li>
+               <li><a href="#">Services</a></li>
+               <li><a href="#">Admissions</a></li>
+               <li><a href="#">About Us</a></li>
+               <li><a href="#">Contact Us</a></li>
+            </ul>
+         </div>
+      </nav>
+
+
+        <div id="header" class="header-slide" style="position: relative; z-index: 0; background: none;">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="quick-search" style="background: rgba(70,56,47,.7)">
+                     <div class="row">
+                        <form role="form">
+                           <div class="col-md-4 col-sm-12 col-xs-12">
+                              <div class="form-group">
+                                 <label for="country">Institute</label>
+                                 <select class="form-control">
+                                    <option>Australia</option>
+                                    <option>Indonesia</option>
+                                    <option>Japan</option>
+                                    <option>South Korea</option>
+                                    <option>China</option>
+                                 </select>
+                              </div>
+                           </div>
+                           <!-- break -->
+                           <div class="col-md-4 col-sm-12 col-xs-12">
+                              <div class="form-group">
+                                 <label for="location">City</label>
+                                 <select class="form-control">
+                                    <option>Tasmania</option>
+                                    <option>Yogyakarta</option>
+                                    <option>Tokyo</option>
+                                    <option>Busan</option>
+                                    <option>Taipe</option>
+                                 </select>
+                              </div>
+                           </div>
+                           <div class="col-md-4 col-sm-12 col-xs-12">
+                              <input type="submit" name="submit" value="Search" class="btn btn-primary btn-lg btn-block" style="margin-top: 30px; padding: 3px 7px;">
+                           </div>
+                           <!-- break -->
+                        </form>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      
+      
+         <div class="container">
+            <div class="row ">
+               <div class="col-md-12">
+                  <div class="row marginBtm">
+                     <div class="col-md-4 col-sm-12 col-xs-12">
+                        <div class="inner_bg">
+                           <div class="heading_box">
+                              <a href="#"><img src="images/logo.png" width="50" height="50" style="float:right;"></a>
+                              <h3 class="heading_main">University of Punjab
+                              </h3>
+                              <h3 class="heading_main">Admission Open <br/>
+                                 <span style="text-align: center; color:#000;">12 june 2017</span>
+                              </h3>
+                              <h3 class="heading_main">Admission Close <br/>
+                                 <span style="text-align: center;color:#000;">22 july 2017</span>
+                              </h3>
+                              <p>My mission is to raise the productivity of our graduates through quality education and practical knowledge to contribute in a significant way to the national economy.</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-md-4 col-sm-12 col-xs-12">
+                        <div class="inner_bg">
+                           <div class="heading_box">
+                              <a href="#"><img src="images/ucp.png" width="50" height="50" style="float:right;"></a>
+                              <h3 class="heading_main">Central Punjab </h3>
+                              <h3 class="heading_main">Admission Open <br/>
+                                 <span style="text-align: center; color:#000;">12 june 2017</span>
+                              </h3>
+                              <h3 class="heading_main">Admission Close <br/>
+                                 <span style="text-align: center;color:#000;">22 july 2017</span>
+                              </h3>
+                              <p>My mission is to raise the productivity of our graduates through quality education and practical knowledge to contribute in a significant way to the national economy.</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-md-4 col-sm-12 col-xs-12">
+                        <div class="inner_bg">
+                           <div class="heading_box">
+                              <a href="#"><img src="images/gc.jpg" width="50" height="50" style="float:right;"></a>
+                              <h3 class="heading_main">GC University</h3>
+                              <h3 class="heading_main">Admission Open <br/>
+                                 <span style="text-align: center; color:#000;">12 june 2017</span>
+                              </h3>
+                              <h3 class="heading_main">Admission Close <br/>
+                                 <span style="text-align: center;color:#000;">22 july 2017</span>
+                              </h3>
+                              <p>My mission is to raise the productivity of our graduates through quality education and practical knowledge to contribute in a significant way to the national economy.</p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="row marginBtm">
+                     <div class="col-md-4 col-sm-12 col-xs-12">
+                        <div class="inner_bg">
+                           <div class="heading_box">
+                              <a href="#"><img src="images/logo.png" width="50" height="50" style="float:right;"></a>
+                              <h3 class="heading_main">University of Punjab
+                              </h3>
+                              <h3 class="heading_main">Admission Open <br/>
+                                 <span style="text-align: center; color:#000;">12 june 2017</span>
+                              </h3>
+                              <h3 class="heading_main">Admission Close <br/>
+                                 <span style="text-align: center;color:#000;">22 july 2017</span>
+                              </h3>
+                              <p>My mission is to raise the productivity of our graduates through quality education and practical knowledge to contribute in a significant way to the national economy.</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-md-4 col-sm-12 col-xs-12">
+                        <div class="inner_bg">
+                           <div class="heading_box">
+                              <a href="#"><img src="images/ucp.png" width="50" height="50" style="float:right;"></a>
+                              <h3 class="heading_main">Central Punjab </h3>
+                              <h3 class="heading_main">Admission Open <br/>
+                                 <span style="text-align: center; color:#000;">12 june 2017</span>
+                              </h3>
+                              <h3 class="heading_main">Admission Close <br/>
+                                 <span style="text-align: center;color:#000;">22 july 2017</span>
+                              </h3>
+                              <p>My mission is to raise the productivity of our graduates through quality education and practical knowledge to contribute in a significant way to the national economy.</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-md-4 col-sm-12 col-xs-12">
+                        <div class="inner_bg">
+                           <div class="heading_box">
+                              <a href="#"><img src="images/gc.jpg" width="50" height="50" style="float:right;"></a>
+                              <h3 class="heading_main">GC University</h3>
+                              <h3 class="heading_main">Admission Open <br/>
+                                 <span style="text-align: center; color:#000;">12 june 2017</span>
+                              </h3>
+                              <h3 class="heading_main">Admission Close <br/>
+                                 <span style="text-align: center;color:#000;">22 july 2017</span>
+                              </h3>
+                              <p>My mission is to raise the productivity of our graduates through quality education and practical knowledge to contribute in a significant way to the national economy.</p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="row marginBtm">
+                     <div class="col-md-4 col-sm-12 col-xs-12">
+                        <div class="inner_bg">
+                           <div class="heading_box">
+                              <a href="#"><img src="images/logo.png" width="50" height="50" style="float:right;"></a>
+                              <h3 class="heading_main">University of Punjab
+                              </h3>
+                              <h3 class="heading_main">Admission Open <br/>
+                                 <span style="text-align: center; color:#000;">12 june 2017</span>
+                              </h3>
+                              <h3 class="heading_main">Admission Close <br/>
+                                 <span style="text-align: center;color:#000;">22 july 2017</span>
+                              </h3>
+                              <p>My mission is to raise the productivity of our graduates through quality education and practical knowledge to contribute in a significant way to the national economy.</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-md-4 col-sm-12 col-xs-12">
+                        <div class="inner_bg">
+                           <div class="heading_box">
+                              <a href="#"><img src="images/ucp.png" width="50" height="50" style="float:right;"></a>
+                              <h3 class="heading_main">Central Punjab </h3>
+                              <h3 class="heading_main">Admission Open <br/>
+                                 <span style="text-align: center; color:#000;">12 june 2017</span>
+                              </h3>
+                              <h3 class="heading_main">Admission Close <br/>
+                                 <span style="text-align: center;color:#000;">22 july 2017</span>
+                              </h3>
+                              <p>My mission is to raise the productivity of our graduates through quality education and practical knowledge to contribute in a significant way to the national economy.</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-md-4 col-sm-12 col-xs-12">
+                        <div class="inner_bg">
+                           <div class="heading_box">
+                              <a href="#"><img src="images/gc.jpg" width="50" height="50" style="float:right;"></a>
+                              <h3 class="heading_main">GC University</h3>
+                              <h3 class="heading_main">Admission Open <br/>
+                                 <span style="text-align: center; color:#000;">12 june 2017</span>
+                              </h3>
+                              <h3 class="heading_main">Admission Close <br/>
+                                 <span style="text-align: center;color:#000;">22 july 2017</span>
+                              </h3>
+                              <p>My mission is to raise the productivity of our graduates through quality education and practical knowledge to contribute in a significant way to the national economy.</p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- break -->
+               </div>
+            </div>
+         </div>
+      
+      <div class="backstretch" style="left: 0px; top: 0px; overflow: hidden; margin: 0px; padding: 0px; z-index: -999998; position: absolute; width: 1366px; height: 537px;"><img style="position: absolute; margin: 0px; padding: 0px; border: none; max-height: none; max-width: none; z-index: -999999; width: 1366px; height: 843.505px; left: 0px; top: -153.252px;" src="images/bbg.png"></div>
+      </div>
+      <!-- end:header -->
+          <!-- begin:footer -->
+      <div id="footer">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-3 col-sm-6 col-xs-12">
+                  <div class="widget">
+                     <h3>Top Universities</h3>
+                     <ul class="list-unstyled">
+                        <li><a href="#">Apartments</a></li>
+                        <li><a href="#">Office</a></li>
+                        <li><a href="#">Bungalows</a></li>
+                        <li><a href="#">Serviced Residence</a></li>
+                        <li><a href="#">Villa</a></li>
+                     </ul>
+                  </div>
+               </div>
+               <!-- break -->
+               <div class="col-md-3 col-sm-6 col-xs-12">
+                  <div class="widget">
+                     <h3>Top Colleges</h3>
+                     <ul class="list-unstyled">
+                        <li><a href="#">Lorenso</a></li>
+                        <li><a href="#">Bardiman</a></li>
+                        <li><a href="#">Tarjono noto boto limo</a></li>
+                        <li><a href="#">Surti</a></li>
+                        <li><a href="#">Ngatinem</a></li>
+                     </ul>
+                  </div>
+               </div>
+               <!-- break -->
+               <div class="col-md-3 col-sm-6 col-xs-12">
+                  <div class="widget">
+                     <h3>Top Schools</h3>
+                     <ul class="list-unstyled">
+                        <li><a href="#">My Account</a></li>
+                        <li><a href="#">How To</a></li>
+                        <li><a href="#">Market Trend</a></li>
+                        <li><a href="#">Android App</a></li>
+                        <li><a href="#">IOS App</a></li>
+                     </ul>
+                  </div>
+               </div>
+               <!-- break -->
+               <div class="col-md-3 col-sm-6 col-xs-12">
+                  <div class="widget">
+                     <h2>Grapple.</h2>
+                     <address>
+                        <strong>Grapple theme.</strong><br>
+                        9.5 Main Street, Jjrn Plrt Btl<br>
+                        <br>
+                        Telp. : +62-345678910<br>
+                        Email : hello@grapple.com
+                     </address>
+                  </div>
+               </div>
+               <!-- break -->
+            </div>
+            <!-- break -->
+            <!-- begin:copyright -->
+            <div class="row">
+               <div class="col-md-12 copyright">
+                  <p>Copyright © 2014 Company, Inc. All Right Reserved.</p>
+                  <p>Theme : Grapple Designed by <strong>Mad Digital.</strong></p>
+                  <a href="#top" class="btn btn-primary scroltop"><i class="fa fa-angle-up"></i></a>
+                  <ul class="list-inline social-links">
+                     <li><a href="#" class="icon-twitter" rel="tooltip" title="" data-placement="bottom" data-original-title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                     <li><a href="#" class="icon-facebook" rel="tooltip" title="" data-placement="bottom" data-original-title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                     <li><a href="#" class="icon-gplus" rel="tooltip" title="" data-placement="bottom" data-original-title="Gplus"><i class="fa fa-google-plus"></i></a></li>
+                  </ul>
+               </div>
+            </div>
+            <!-- end:copyright -->
+         </div>
+      </div>
+      <!-- end:footer -->
+   </body>
+</html>
