@@ -711,6 +711,7 @@ input[type="color"]:focus,
 .property-container{
   margin-bottom: 30px;
   background: #fff;
+  min-height: 320px;
   border: 1px solid #eee;
 }
 
