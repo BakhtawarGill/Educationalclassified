@@ -1,40 +1,306 @@
 <!DOCTYPE html>
 <html>
    <head>
-      <title>Index</title>
+      <title>rapple</title>
       <meta charset="utf-8">
+      <link rel="shortcut icon" href="favicon/letter.ico"/>
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <link rel="stylesheet" href="stylesheets/bootstrap.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">
       <link rel="stylesheet" href="stylesheets/bootstrap-theme.min.css">
-      <link href="stylesheets/custom.css" rel="stylesheet">
-      <link rel="stylesheet" href="stylesheets/style.css">
+      <link rel="stylesheet" href="stylesheets/styles.css">
       <script src="js/jquery.js"></script>
+      <script src="js/wookmark.js"></script>
       <script src="js/bootstrap.min.js"></script>
-
-      <style>
-        .nav-pills li a { color: #000; font-weight: bold; }
-      </style>
-      <body>
+   </head>
+   <body id="top">
+      <!-- begin:navbar -->
+      <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
          <div class="container">
-             <h3>Products</h3>
-          <ul class="nav nav-pills">
-           <li class="active"><a href="#">Home</a></li>
-           <li><a href="grapple.html">Product 1</a></li>
-           <li><a href="grapple2.html">Product 2</a></li>
-           <li><a href="grapple3.html">Product 3</a></li>
-           <li><a href="product4.html">Product 4</a></li>
-        </ul>
-</div>
-
-
-<div class="cotainer">
-      <div class="footer">
-             
-
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-top">
+               <span class="sr-only">Toggle navigation</span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               </button>
+               <a class="navbar-brand" href="index.html"><span>Gra<strong>pple.</strong></span></a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="navbar-top">
+               <!--<ul class="nav navbar-nav navbar-right">
+                  <li class="active"><a href="index.html"></a></li>
+                  <li ><a href="">Services</a></li>
+                  <li class="dropdown">
+                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Admissions <b class="caret"></b></a>
+                     <ul class="dropdown-menu">
+                        <li><a href="school.html">School</a></li>
+                        <li><a href="colleges.html">Colleges</a></li>
+                        <li><a href="universities.html">Universities</a></li>
+                     </ul>
+                  </li>
+                  <li><a href="">About Us</a></li>
+                  <li class="dropdown">
+                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Forms <b class="caret"></b></a>
+                     <ul class="dropdown-menu">
+                        <li><a href="">Search (Grid View)</a></li>
+                        <li><a href="">Search (List View)</a></li>
+                        <li><a href="">Category (Grid View)</a></li>
+                        <li><a href="">Category (List View)</a></li>
+                        <li><a href="">Single page</a></li>
+                     </ul>
+                  </li>
+                  <li class="dropdown">
+                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contact Us <b class="caret"></b></a>
+                     <ul class="dropdown-menu">
+                        <li><a href="">Blog Archive</a></li>
+                        <li><a href="">Blog Single</a></li>
+                        <li><a href="l">About</a></li>
+                        <li><a href="">Contact</a></li>
+                     </ul>
+                  </li>
+               </ul>-->
+            </div>
+            <!-- /.navbar-collapse -->
+         </div>
+         <!-- /.container -->
+      </nav>
+      <!-- end:navbar -->
+      <!-- begin:header -->
+      <div id="header" class="header-slide">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="quick-search">
+                     <div class="row">
+                        <form role="form">
+                           <div class="col-md-4 col-sm-12 col-xs-12">
+                              <div class="form-group">
+                                 <label for="location">City</label>
+                                 <select class="form-control">
+                                    <option>Karachi</option>
+                                    <option>Islamabad</option>
+                                    <option>Lahore</option>
+                                    <option>Multan</option>
+                                 </select>
+                              </div>
+                           </div>
+                           <!-- break -->
+                           <div class="col-md-4 col-sm-12 col-xs-12">
+                              <div class="form-group">
+                                 <label for="country">Institute</label>
+                                 <select class="form-control">
+                                    <option>Universities</option>
+                                    <option>Colleges</option>
+                                    <option>Schools</option>
+                                 </select>
+                              </div>
+                           </div>
+                           <div class="col-md-4 col-sm-12 col-xs-12">
+                              <input type="submit" name="submit" value="Search" class="btn btn-primary btn-lg btn-block search_btn">
+                           </div>
+                           <!-- break -->
+                        </form>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
       </div>
-
-</div>
-
-      </body>
+      <div class="container-fluid">
+         <ul class="tiles-wrap animated" id="wookmark1">
+            <li>
+               <a href="#myModal" data-toggle="modal" data-toggle="modal">
+                  <div class="each-item">
+                     <img class="img-responsive" src="images/Ucpp.jpg" alt="">
+                  </div>
+               </a>
+            </li>
+            <li>
+               <div class="middle">
+                  <img class="img-responsive" src="images/ngs.png" alt="">
+               </div>
+            </li>
+            <li>
+               <a href="#myModal2" data-toggle="modal" data-toggle="modal">
+                  <div class="each-item">
+                     <img class="img-responsive" src="images/lahore.jpg" alt="">
+                  </div>
+               </a>
+            </li>
+            <li>
+               <div class="each-item middle">
+                  <img class="img-responsive" src="images/gifts.png" alt="">
+               </div>
+            </li>
+            <li>
+               <img class="img-responsive" src="images/sza.jpg" alt="">
+            </li>
+            <li>
+               <div class="each-item middle">
+                  <img class="img-responsive" src="images/cothm.png" alt="">
+               </div>
+            </li>
+            <li>
+               <div class="each-item middle">
+                  <img class="img-responsive" src="images/gifts.png" alt="">
+               </div>
+            </li>
+            <li>
+               <img class="img-responsive" src="images/sza.jpg" alt="">
+            </li>
+            <li>
+               <div class="each-item middle">
+                  <img class="img-responsive" src="images/cothm.png" alt="">
+               </div>
+            </li>
+            <li>
+               <div class="each-item middle">
+                  <img class="img-responsive" src="images/kips.jpg" alt="">
+               </div>
+            </li>
+            <li>
+               <img class="img-responsive" src="images/au.jpg" alt="">
+            </li>
+            <li>
+               <div class="each-item middle">
+                  <img class="img-responsive" src="images/cothm.png" alt="">
+               </div>
+            </li>
+            <li>
+               <img class="img-responsive" src="images/leads.jpg" alt="">
+            </li>
+            <li>
+               <div class="each-item middle">
+                  <img class="img-responsive" src="images/kips.jpg" alt="">
+               </div>
+            </li>
+         </ul>
+      </div>
+      <div class="container text-center">
+         <ul class="pagination pagination-lg">
+            <li><a href="#">Previous</a></li>
+            <li><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#">5</a></li>
+            <li><a href="#">Next</a></li>
+         </ul>
+      </div>
+      <!-- begin:footer -->
+      <div id="footer">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-3 col-sm-6 col-xs-12">
+                  <div class="widget">
+                     <h3>Top Universities</h3>
+                     <ul class="list-unstyled">
+                        <li><a href="#">Apartments</a></li>
+                        <li><a href="#">Office</a></li>
+                        <li><a href="#">Bungalows</a></li>
+                        <li><a href="#">Serviced Residence</a></li>
+                        <li><a href="#">Villa</a></li>
+                     </ul>
+                  </div>
+               </div>
+               <!-- break -->
+               <div class="col-md-3 col-sm-6 col-xs-12">
+                  <div class="widget">
+                     <h3>Top Colleges</h3>
+                     <ul class="list-unstyled">
+                        <li><a href="#">Lorenso</a></li>
+                        <li><a href="#">Bardiman</a></li>
+                        <li><a href="#">Tarjono noto boto limo</a></li>
+                        <li><a href="#">Surti</a></li>
+                        <li><a href="#">Ngatinem</a></li>
+                     </ul>
+                  </div>
+               </div>
+               <!-- break -->
+               <div class="col-md-3 col-sm-6 col-xs-12">
+                  <div class="widget">
+                     <h3>Top Schools</h3>
+                     <ul class="list-unstyled">
+                        <li><a href="#">My Account</a></li>
+                        <li><a href="#">How To</a></li>
+                        <li><a href="#">Market Trend</a></li>
+                        <li><a href="#">Android App</a></li>
+                        <li><a href="#">IOS App</a></li>
+                     </ul>
+                  </div>
+               </div>
+               <!-- break -->
+               <div class="col-md-3 col-sm-6 col-xs-12">
+                  <div class="widget">
+                     <h2>Grapple.</h2>
+                     <address>
+                        <strong>Grapple theme.</strong><br>
+                        9.5 Main Street, Jjrn Plrt Btl<br>
+                        <br>
+                        Telp. : +62-345678910<br>
+                        Email : hello@grapple.com
+                     </address>
+                  </div>
+               </div>
+               <!-- break -->
+            </div>
+            <!-- break -->
+            <!-- begin:copyright -->
+            <div class="row">
+               <div class="col-md-12 copyright">
+                  <p>Copyright © 2014 Company, Inc. All Right Reserved.</p>
+                  <p>Theme : Grapple Designed by <strong>Mad Digital.</strong></p>
+                  <a href="#top" class="btn btn-primary scroltop"><i class="fa fa-angle-up"></i></a>
+                  <ul class="list-inline social-links">
+                     <li><a href="#" class="icon-twitter" rel="tooltip" title="" data-placement="bottom" data-original-title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                     <li><a href="#" class="icon-facebook" rel="tooltip" title="" data-placement="bottom" data-original-title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                     <li><a href="#" class="icon-gplus" rel="tooltip" title="" data-placement="bottom" data-original-title="Gplus"><i class="fa fa-google-plus"></i></a></li>
+                  </ul>
+               </div>
+            </div>
+            <!-- end:copyright -->
+         </div>
+      </div>
+      <!-- end:footer -->
+      <script type="text/javascript">
+         window.onload = function () {
+         
+         
+           var wookmark1 = new Wookmark('#wookmark1', {
+             outerOffset: 12, // Optional, the distance to the containers border
+             itemWidth: 410 // Optional, the width of a grid item
+           });
+         
+         $(".tab-content").hide();
+         $("#tab-1").show();
+         };
+          
+      </script>
+      <!-- Modal -->
+      <div class="modal fade" id="myModal" role="dialog">
+         <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+               <div class="modal-header padnone">
+                  <button type="button" class="close closeBtn" data-dismiss="modal">&times;</button>
+                  <img class="img-responsive" src="images/Ucpp.jpg" width="100%">
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="modal fade" id="myModal2" role="dialog">
+         <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+               <div class="modal-header padnone">
+                  <button type="button" class="close closeBtn" data-dismiss="modal">&times;</button>
+                  <img class="img-responsive" src="images/lahore.jpg" width="100%">
+               </div>
+            </div>
+         </div>
+      </div>
+   </body>
 </html>
